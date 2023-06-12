@@ -4,7 +4,7 @@
 body {
     background-color: crimson;
     font-family: 'Kanit', sans-serif;
-    font-weight: 100px;
+    
 }
 /* h1 {
     background-color: blue;
@@ -69,4 +69,40 @@ h1, p{
 .example-a{
     /* width: 300px; */
     display: inline;
+}
+
+/* position */
+.scatola{
+    border: 2px solid red;
+    height: 300px;
+}
+.s-a{
+    background-color: blue;
+}
+.s-b{
+    background-color: purple;
+}
+.s-c{
+    background-color: darkgoldenrod;
+}
+.s-d{
+    background-color: violet;
+}
+.s-e{
+    background-color: brown;
+}
+.s-f{
+    background-color: slategrey;
+}
+.s-g{
+    background-color: lime;
+}
+.s-h{
+    background-color: aqua;
+}
+.s-i{
+    background-color: lightblue;
+}
+.s-l{
+    background-color: navy;
 }
