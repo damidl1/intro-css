@@ -81,28 +81,59 @@ h1, p{
 }
 .s-b{
     background-color: purple;
+    position: relative;
+    left: 50px;
+    top: 100px;
 }
 .s-c{
     background-color: darkgoldenrod;
 }
 .s-d{
     background-color: violet;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 100px;
+ 
 }
 .s-e{
     background-color: brown;
+    position: relative;
 }
 .s-f{
     background-color: slategrey;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 .s-g{
     background-color: lime;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    right: 100px;
 }
 .s-h{
     background-color: aqua;
 }
 .s-i{
     background-color: lightblue;
+    position: sticky;
+    bottom: 0;
 }
 .s-l{
     background-color: navy;
 }
+
+/* position static: default di tutti gli elementi hmtl */
+
+/* 
+elemento è position absolute per posizionare elemento fisso rispetto alla pagina
+relative distanze rispetto a lui e non all'intera pagina 
+Position fixed: elemento rimane fissato e ti segue per tutto lo scroll della pagina
+position sticky: ad esempio nei footer, elemento rimane ancorato in basso e segue per tutto lo scroll della pagina 
+fino a quando ritorna nella sua posizione e da lì rimane fermo.*/
